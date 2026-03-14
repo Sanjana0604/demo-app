@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = "ap-south-1"
-        ECR_REPO = "277528343142.dkr.ecr.ap-south-1.amazonaws.com/demo-app"
+        ECR_REPO = "277528343142.dkr.ecr.ap-south-1.amazonaws.com/my-first-devops-project"
         TARGET_SERVER = "ubuntu@10.10.11.25"
     }
 
